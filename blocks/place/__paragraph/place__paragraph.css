@@ -1,0 +1,14 @@
+.place__paragraph {
+    font-family: 'Inter';
+    margin:0;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+    max-width: 484px;
+}
+.place__paragraph:first-child{
+    margin-bottom: 26px;
+}

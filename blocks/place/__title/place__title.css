@@ -1,0 +1,13 @@
+.place__title {
+    margin-top: 0;
+    margin-bottom: 48px;
+    margin-right: 40px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 76px;
+    color: #ffffff;
+    text-align: left;
+    flex-basis: 460px;
+}
