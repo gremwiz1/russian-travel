@@ -4,3 +4,24 @@
     margin-right: 148px;
     margin-left: 148px;
 }
+@media screen and (max-width: 1024px){
+    .lead {
+        margin-right: 48px;
+        margin-left: 48px;
+        max-width: 928px;
+        padding-top: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}

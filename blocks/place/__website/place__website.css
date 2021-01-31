@@ -1,6 +1,19 @@
 .place__website {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 48px;
     max-width: 456px;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 100%;
+    }
 }

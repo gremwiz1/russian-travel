@@ -1,5 +1,25 @@
 .intro {
     padding-top: 92px;
-    flex-basis: 690px;
+    max-width: 690px;
     margin-left: 148px;
+}
+@media screen and (max-width:1024px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-left: 24px;
+        max-width: 720px;
+        padding-top: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 100%;
+        padding-top: 64px;
+    }
 }

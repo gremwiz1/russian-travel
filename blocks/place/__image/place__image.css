@@ -1,6 +1,20 @@
 .place__image {
-    max-width: 460px;
+    width: 100%;
     object-fit: cover;
-    margin-right: 40px;
     margin-bottom: 80px;
+    grid-row: 2/3;
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
 }
