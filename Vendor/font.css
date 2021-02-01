@@ -4,7 +4,8 @@
     url(./fonts/Inter-Black.woff2) format('woff2'),
     url(./fonts/Inter-Black.woff) format('woff');
     font-family: 'Inter';
-    font-style: black;
+    font-style: normal;
+    font-weight: 900;
 } 
 @font-face {
     src:
@@ -18,5 +19,6 @@
     url(./fonts/Inter-Regular.woff2) format('woff2'),
     url(./fonts/Inter-Regular.woff) format('woff');
     font-family: 'Inter';
-    font-style: regular;
+    font-style: normal;
+    font-weight: 400;
 }
