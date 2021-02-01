@@ -13,7 +13,7 @@
         padding-left: 48px;
         padding-right: 48px;
         column-gap: 32px;
-        
+        grid-template-columns: repeat(auto-fill, minmax(42.96vw,1fr));
     }
 }
 @media screen and (max-width: 768px) {
@@ -21,15 +21,12 @@
         padding-left: 24px;
         padding-right: 24px;
         column-gap: 28px;
+        grid-template-columns: repeat(auto-fill, minmax(44.27vw,1fr)); 
       
     }
 }
-@media screen and (max-width: 700px) {
-    .place {
-        grid-template-columns: repeat(auto-fill, minmax(44.27vw,1fr)); 
-    }
-}
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 540px) {
     .place {
         padding-left: 0;
         padding-right: 0;

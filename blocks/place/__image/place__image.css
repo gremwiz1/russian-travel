@@ -11,7 +11,7 @@
         margin-bottom: 0;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .place__image {
         max-width: 100%;
         margin-right: 0;
