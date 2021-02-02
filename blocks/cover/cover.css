@@ -3,11 +3,21 @@
     margin-right: 48px;
     margin-left: 48px;
     margin-bottom: 92px;
+    position: relative;
+    max-height: 740px;
+    
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    min-height: 57.81vw;
+    
 }
 @media screen and (max-width:1024px) {
     .cover {
         margin-left: 0;
         margin-right: 0;
+        height: 62.5vw;
     }
 }
 @media screen and (max-width: 768px) {

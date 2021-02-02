@@ -9,9 +9,13 @@
     margin-top: 0;
     margin-bottom: 0;
     text-decoration: none;
+    transition: 1s;
 }
 .footer__link:last-child {
 margin-right: 0;
+}
+.footer__link:hover {
+    opacity: 0.8;
 }
 @media screen and (max-width: 660px) {
     .footer__link {

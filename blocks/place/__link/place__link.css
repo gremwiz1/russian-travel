@@ -8,6 +8,7 @@
     color: #ffffff;
     margin-top: 12px;
     margin-bottom: 0;
+    margin-right: auto;
 }
 .place__link:hover {
     opacity: 0.8;

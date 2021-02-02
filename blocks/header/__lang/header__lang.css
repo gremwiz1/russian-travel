@@ -1,6 +1,8 @@
 .header__lang {
     padding-top: 46px;
     padding-right: 48px;
+    display: flex;
+    
 }
 @media screen and (max-width: 768px) {
     .header__lang {

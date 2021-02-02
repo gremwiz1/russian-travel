@@ -7,9 +7,13 @@
     line-height: 28px;
     color: #ffffff;
     text-decoration: none;
+    transition: 1s;
 }
 .header__lang-link:first-child {
     margin-right: 18px;
+}
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 @media screen and (max-width: 320px) {
     .header__lang-link {
