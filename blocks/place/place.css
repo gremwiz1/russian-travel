@@ -25,8 +25,8 @@
         padding-left: 24px;
         padding-right: 24px;
         column-gap: 28px;
-        grid-template-columns: repeat(auto-fill, minmax(44.27vw,1fr)); 
-        margin-bottom: 72px;
+        grid-template-columns: repeat(auto-fill, minmax(44.27vw,1fr));
+        margin-bottom: 73px;
     }
     .place:last-child {
         margin-bottom: 0;
