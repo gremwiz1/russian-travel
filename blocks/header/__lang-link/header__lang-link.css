@@ -9,7 +9,7 @@
     text-decoration: none;
     transition: 1s;
 }
-.header__lang-link:first-child {
+.header__lang-link:not(:last-child) {
     margin-right: 18px;
 }
 .header__lang-link:hover {

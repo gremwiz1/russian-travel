@@ -3,11 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
     margin: 0;
     text-decoration: none;
-    
-    
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 57.81vw;
 }
-
+@media screen and (min-width:1280px) {
+    .cover__background {
+        min-height: 740px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: 62.5vw;
+    }
+}
 

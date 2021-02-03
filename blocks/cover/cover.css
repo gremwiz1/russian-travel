@@ -1,28 +1,14 @@
 .cover {
-     margin-top: 92px;
+    margin-top: 92px;
     margin-right: 48px;
     margin-left: 48px;
     margin-bottom: 92px;
-    position: relative;
     max-height: 740px;
-    
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    min-height: 57.81vw;
-    
 }
-@media screen and (min-width:1280px) {
-    .cover {
-        min-height: 740px;
-    }
-}
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
     .cover {
         margin-left: 0;
         margin-right: 0;
-        height: 62.5vw;
     }
 }
 @media screen and (max-width: 768px) {
@@ -31,7 +17,7 @@
         margin-bottom: 88px;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .cover {
         margin-top: 66px;
         margin-bottom: 64px;
